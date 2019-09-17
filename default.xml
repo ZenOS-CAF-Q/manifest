@@ -792,4 +792,8 @@
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996" revision="fbcad253f813ed1ab2330e0377cafe471195900b" upstream="refs/heads/qcom-devices.lnx.5.0.r1-rel"/>
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="b9f0688190003b02983ea30e4331e54a4fa84569" upstream="refs/heads/wlan-service.lnx.4.0.r14-rel"/>
   <project groups="pdk,q-fs-release" name="toolchain/pgo-profiles" revision="48139bcd3d148d31f59948712f33aa3c2d773d97" upstream="refs/heads/ks-aosp.lnx.2.0.r1-rel"/>
+
+  <!-- Zen changes -->
+  <include name="remove.xml" />
+
 </manifest>
