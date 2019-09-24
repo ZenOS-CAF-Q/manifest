@@ -28,6 +28,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/zen/sepolicy" name="device_zen_sepolicy" remote="zenosq" />
+
   <!-- External -->
   <project path="external/tinycompress" name="external_tinycompress" remote="zenosq" />
 
