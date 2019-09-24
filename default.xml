@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="zenosq" 
-          fetch="https://github.com/ZenOS-CAF-Q" 
-          revision="refs/heads/ten-caf" />
-
   <remote name="caf"
           fetch="https://source.codeaurora.org/quic/la/"
           review="codeaurora.org"
           revision="LA.UM.8.3.r1-05800-sdm845.0" />
 
-  <default revision="ten-caf"
+  <default revision="refs/heads/ten-caf"
            remote="caf"
            sync-j="4"
            sync-c="true"
@@ -794,6 +790,7 @@
   <project groups="pdk,q-fs-release" name="toolchain/pgo-profiles" revision="48139bcd3d148d31f59948712f33aa3c2d773d97" upstream="refs/heads/ks-aosp.lnx.2.0.r1-rel"/>
 
   <!-- Zen changes -->
-  <include name="remove.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/zenos.xml" />
 
 </manifest>
