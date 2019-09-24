@@ -33,4 +33,7 @@
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/sample" />
 
+  <!-- External repos -->
+  <remove-project name="platform/external/tinycompress" />
+
 </manifest>

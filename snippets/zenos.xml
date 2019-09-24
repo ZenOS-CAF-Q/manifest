@@ -28,6 +28,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="zenosq" />
+
   <!-- Vendor -->
   <project path="vendor/zen" name="vendor_zen" remote="zenosq" />
 
