@@ -28,4 +28,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Vendor -->
+  <project path="vendor/zen" name="vendor_zen" remote="zenosq" />
+
 </manifest>
